@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ghpages": "ng build --prod --deploy-url=https://jahanzaibrao-dev.github.io/Test-app/", 
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
