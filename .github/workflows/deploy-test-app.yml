@@ -15,7 +15,7 @@ jobs:
           npm ci
           npm run build
 
-      - name: Deploy
+      - name: Deploy Test App
         uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages 
